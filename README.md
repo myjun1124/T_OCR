@@ -29,4 +29,4 @@ TesseractEngine engine = new TesseractEngine(@"./tessdata", "digits", EngineMode
 위 코드에서 테스트 데이터를 불러오므로 프로젝트 파일의 Debug 파일이 위치한 곳에 tessdata라는 폴더를 생성 후,
 digits.traindata 파일을 넣으면 됨.
 
-# 첫 기능 구현으로 부족한 부분이 많아 추후 수정할 예정. 특정 색을 통해 전처리가 잘 되었다면 ORC Accuracy는 적어도 80% 이상.
+- 첫 기능 구현으로 부족한 부분이 많아 추후 수정할 예정. 특정 색을 통해 전처리가 잘 되었다면 ORC Accuracy는 적어도 80% 이상.
